@@ -1,8 +1,14 @@
 // console.log() below to make sure your JQuery is properly connected
 
-// Create 4 variables to select four elements on the page. 
+// Create 4 variables to select four elements on the page.
 // Your variables should select h1, p, and id and a class.
 // Log the variables to the console, observe the result.
+
+var h1 = document.getElementsByTagName('h1')
+var img = document.getElementsByTagName('img')
+
+console.log(h1);
+console.log(img);
 
 // PART TWO
 // The time of the bears ruling things is over. Lets use DOM manipulation to give power
